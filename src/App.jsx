@@ -58,8 +58,8 @@ function App() {
   return (
 
     <>
-    
-      {/* <Navbar
+
+      <Navbar
         {...datos}
         idioma={idioma}
         cambiarIdioma={setIdioma}
@@ -86,13 +86,13 @@ function App() {
 
         </p>
 
-      </main> */}
-      
-    <ContadorClics/>
-    <Cronometro />
-    <RecordarNombre />
-    <PersonajeApi />
-    <NavegadorPersonajes />
+      </main>
+
+      <ContadorClics />
+      <Cronometro />
+      <RecordarNombre />
+      <PersonajeApi />
+      <NavegadorPersonajes />
 
     </>
 
