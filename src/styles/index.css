@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+
+    --color-fondo: #f7f7f7;
+    --color-superficie: #ffff;
+    --color-texto: #141414;
+    --color-texto-suave: #525252;
+    --color-borde: #e5e5e5;
+    --color-borde-fuerte: #8c8c8c;
+    --color-primario: #141414;
+    --color-primario-hover: #3a3a3a;
+    --color-error: #b42318;
+    --color-exito: #067647;
+    --color-foco: #7326f9;
+    --radio: 0.5rem;
+
+    /*Cofiguracion de texto*/
+    font-family:
+        "Instruments Sans",
+        system-ui, -apple-system,
+        "Segoe UI",
+        sans-serif;
+    line-height: 1.5;
+    /*Color del texto*/
+    color: var(--color-texto);
+    /*Color del fondo de la pagina*/
+    background: var(--color-fondo);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+
+    margin: 0;
+}
+
+button,
+input{
+
+    font: inherit;
+}
+
+:focus-visible{
+    outline: 3px solid var(--color-foco);
+    outline-offset: 2px;
+}
