@@ -20,6 +20,7 @@ function App() {
   const [textoGrande, setTextoGrande] = useState(false);
   const datos = useTextos(idioma);
   console.log(datos);
+  const [idioma2_Prueba , setIdioma2_Prueba]
 
   const ingles = idioma === "en";
   const titulo =
